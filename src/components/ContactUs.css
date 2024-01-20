@@ -1,0 +1,49 @@
+.contactUs {
+  margin: 4rem 6rem;
+  color: rgb(216, 35, 35);
+}
+
+.contactUs form {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  margin: auto;
+}
+
+.contactUs input {
+  height: 2rem;
+  padding: 0.2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  border: 2px solid #2a2a2a;
+}
+
+.contactUs textarea {
+  padding: 0.2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.4rem;
+  border: 2px solid #2a2a2a;
+}
+
+.contactUs button {
+  display: inline;
+  color: black;
+  font-weight: bold;
+}
+
+.contactUs button.clicked {
+  background-color: white;
+  color: black;
+}
+
+@media screen and (max-width: 850px) {
+  .contactUs {
+    margin: 4rem 2rem;
+  }
+
+  .contactUs form {
+    padding-top: 1.5rem;
+    width: 90%;
+  }
+}
